@@ -1,0 +1,17 @@
+
+{{menu-service/menu}}
+
+<div local-class="main-page">
+
+    <h3>menu-service page</h3>
+
+    <button type="button" name="button" {{action 'hide'}} disabled={{unless menuCtrl.isShow 'disabled'}}>隐藏菜单</button>
+    &nbsp;&nbsp;
+    <button type="button" name="button" {{action 'show'}} disabled={{if menuCtrl.isShow 'disabled'}}>显示菜单</button>
+    &nbsp;&nbsp;
+    <button type="button" name="button" {{action 'changeMenu'}}>切换菜单</button>
+
+</div>
+
+
+{{menu-service/right-panel}}

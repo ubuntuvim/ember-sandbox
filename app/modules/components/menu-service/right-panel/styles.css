@@ -1,0 +1,7 @@
+.main-right {
+    width: 100%;
+    border: 1px solid blue;
+    position: absolute;
+    left: 301px;
+    top: 300px;
+}
